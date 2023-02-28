@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Moon+Dance&family=Open+Sans:ital@1&family=Orbitron&family=Sacramento&family=Sofia+Sans:ital,wght@1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #E8E8E8;
+    font-family: 'Averia Serif Libre', cursive;
+}
+.container{
+    border: 2px solid black;
+    width: 70%;
+    background-color: rgb(182 207 217);
+    margin: 5px auto;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+#contentsection{
+    /* border: 1px solid black; */
+    padding: 5px;
+}
+#contentsection p {
+    margin-top: 7px;
+    font-size: 17px;
+}
+#commentsection{
+    border: 2px solid black;
+    padding: 9px;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 10px;
+}
+#commentsection form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 5px 0px;
+}
+#comment{
+    font-size: 17px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#btn{
+    width: 20%;
+    padding: 7px;
+    background-color: brown;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    margin: 10px 0px;
+    cursor: pointer;
+    font-size: 16px;
+}
+div ul{
+    margin: 60px 0px;
+}
+.commentbox{
+    width: 70%;
+    /* border: 1px solid black; */
+    background-color: white;
+    margin: 20px auto;
+    list-style: none;
+    padding: 10px;
+    border-radius: 10px;
+    animation-name: commentanimation;
+    animation-duration: .5s;
+}
+@keyframes commentanimation {
+    0%{
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+#time{
+    margin-top: 12px;
+}
+#typing{
+    width: 70%;
+    margin:10px auto;
+    color: rgb(60, 177, 60);
+    font-size: 20px;
+}

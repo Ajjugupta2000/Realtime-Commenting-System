@@ -1,0 +1,21 @@
+{
+  "name": "realtime-comment-system",
+  "version": "1.0.0",
+  "description": "This is a real time comment system web app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "awesome"
+  ],
+  "author": "Ajju",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "mongoose": "^6.10.0",
+    "socket.io": "^4.6.0"
+  }
+}

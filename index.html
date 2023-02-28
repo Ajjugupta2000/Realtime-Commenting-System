@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real time Comment System</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <section id="contentsection">
+            <h2> Realtime Comment System using HTML, CSS and JS and NodeJs, ExpressJs
+                as
+                backend and mongodb as database and socket.io library.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore vitae quis sapiente eligendi eaque
+                est,
+                voluptas aut libero iure impedit natus earum non? Quis repudiandae cum in, deleniti itaque a accusantium
+                dolore repellat perferendis provident asperiores architecto quasi cupiditate. Aspernatur, blanditiis?
+                Aliquid sapiente veritatis sequi labore. Dicta, accusamus numquam molestias asperiores explicabo
+                repellendus
+                sequi, ex ipsa nobis eaque id cum fugit incidunt voluptates laudantium. Esse inventore similique
+                excepturi
+
+            </p>
+        </section>
+    </div>
+
+    <section id="commentsection">
+        <h2>Comment</h2>
+        <p>Write a Comment</p>
+        <form id="writecomment">
+            <textarea name="comment" id="comment" cols="3"  placeholder="Comment Here..."></textarea>
+            <button type="submit" id="btn">Submit</button>
+        </form>
+    </section>
+
+    <div id="typing">
+        
+    </div>
+    <div >
+        <ul id="showcommentbox">     
+        </ul>
+    </div>
+    
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/client.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+</body>
+
+</html>
