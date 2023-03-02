@@ -24,3 +24,8 @@ MongoDB or other NoSQL databases for storing comments and related data.
    `node server.js` or `nodemon server.js`   
 Note : first install nodemon by running command `npm nodemon`
 - Open the application in your web browser by navigating to http://localhost:3000 or the appropriate URL provided by the application.
+- To see the live typing and real-time updates of the comment section on a web page, follow these steps:
+   1. Open two tabs in your web browser with the same URL (e.g., http://localhost:3000)
+   2. In one tab, type a comment in the comment section
+   3. In the other tab, you will be able to see the live typing of the comment as it is being typed
+   4. Once the comment is submitted in the first tab, the comment section will be updated in both tabs, and both users will be able to see the comment.
