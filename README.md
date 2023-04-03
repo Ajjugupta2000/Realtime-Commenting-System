@@ -29,7 +29,7 @@ Note : first install nodemon by running command `npm nodemon`
    2. In one tab, type a comment in the comment section
    3. In the other tab, you will be able to see the live typing of the comment as it is being typed
    4. Once the comment is submitted in the first tab, the comment section will be updated in both tabs, and both users will be able to see the comment.
-- Download and install MongoDB Compass to collect the database
+- Download and install MongoDB Compass to collect the database 
 # Project Demo
 https://user-images.githubusercontent.com/72141908/222476833-1c7e0c77-af9b-4b70-b542-61dfa3f9af44.mp4
 
